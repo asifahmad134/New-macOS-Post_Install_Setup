@@ -1,4 +1,4 @@
-# **🍎🌈💠 New macOS (Intel) Setup**
+# **🍎🌈💠 New macOS Setup**
 
 ### This guide is based on my own experience, but also draws on other guides. It is primarily oriented towards those doing code-related stuff and applicable to those doing Web-based development.
 
