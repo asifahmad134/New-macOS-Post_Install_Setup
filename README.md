@@ -80,36 +80,20 @@ brew update
 ### Step 4. Install Softwares ❇️❇️❇️
 
 ```sh
-# essential
-brew install git
-brew install wget
-brew install mise
-brew install nano
-brew install jandedobbeleer/oh-my-posh/oh-my-posh
-brew install fastfetch
-brew install lla
+# Essential CLI tools
+brew install git wget mise nano oh-my-posh fastfetch lla
 
-# dev
-brew install --cask font-maple-mono-nf
-brew install --cask ghostty
-brew install --cask visual-studio-code
-brew install --cask sublime-text
-brew install --cask xcodes
+# Dev tools (casks)
+brew install --cask font-maple-mono-nf ghostty visual-studio-code sublime-text xcodes
 
+# Media players
+brew install --cask iina vlc
 
-# media
-brew install --cask iina
-brew install --cask vlc
+# Browsers
+brew install --cask firefox google-chrome
 
-# browsers
-brew install --cask librewolf
-brew install --cask google-chrome
-
-# others
-brew install --cask puremac
-brew install --cask applite
-brew install --cask whatsapp
-
+# Other apps
+brew install --cask puremac applite whatsapp
 ```
 
 ## Step 5: Mole Cleaner Tool ☢️☢️☢️
