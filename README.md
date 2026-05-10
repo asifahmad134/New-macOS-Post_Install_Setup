@@ -2,11 +2,11 @@
 
 ### This guide is based on my own experience, but also draws on other guides. It is primarily oriented towards those doing code-related stuff and applicable to those doing Web-based development.
 
-## Steo 0: Change the computer name ❓❓❓
+## Step 0: Change the computer name ❓❓❓
+
+To change the computer name on a Mac via the terminal (the command line), use the scutil command. There are three different names you may want to update for consistency
 
 ```bash
-# To change the computer name on a Mac via the terminal (the command line), use the scutil command. There are three different names you may want to update for consistency
-
 sudo scutil --set ComputerName "New-Computer-Name"
 sudo scutil --set LocalHostName "New-Local-Name"
 sudo scutil --set HostName "New-Host-Name"
@@ -19,7 +19,6 @@ sudo reboot
 scutil --get ComputerName
 scutil --get LocalHostName
 scutil --get HostName
-
 ```
 
 ## Step 1: Run software update ✅✅✅
@@ -67,7 +66,6 @@ This is the first thing I normally do. As I've said before, [haters gonna hate](
 To install **Homebrew**, run this command:
 
 ```bash
-# install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
