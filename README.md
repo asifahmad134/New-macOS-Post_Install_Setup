@@ -21,9 +21,7 @@ scutil --get LocalHostName
 scutil --get HostName
 ```
 
-## Step 1: Run software update ✅✅✅
-
-Make sure everything is up to date. Essential Terminal Commands for macOS 15+ Updates:
+## Step 1: Make sure everything is up to date ✅✅✅
 
 - List all available updates:
 
@@ -31,7 +29,7 @@ Make sure everything is up to date. Essential Terminal Commands for macOS 15+ Up
 softwareupdate -l
 ```
 
-- LInstall all available updates:
+- Install all available updates:
 
 ```bash
 sudo softwareupdate -i -a
@@ -43,7 +41,7 @@ sudo softwareupdate -i -a
 sudo softwareupdate -i -r
 ```
 
-- Install updates and restart automatically:
+- Install updates and restart automatically: (Recommended ✅✅✅)
 
 ```bash
 sudo softwareupdate -i -a -R
@@ -61,9 +59,7 @@ whole Xcode but might not work for all cases tho — or you can run `xcode-selec
 
 http://brew.sh/
 
-This is the first thing I normally do. As I've said before, [haters gonna hate](https://applehelpwriter.com/2018/03/21/how-homebrew-invites-users-to-get-pwned/), but this is the quickest, easiest way to get a commonly-referenced package manager on the Mac.
-
-To install **Homebrew**, run this command:
+This is the first thing I normally do. I don't like it, but it’s the quickest available way. To install Homebrew, run this command:
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -81,7 +77,7 @@ Finally, just to make sure everything's up-to-date:
 brew update
 ```
 
-### Step 4. Install softwares ❇️❇️❇️
+### Step 4. Install Softwares ❇️❇️❇️
 
 ```sh
 # essential
@@ -92,6 +88,7 @@ brew install nano
 brew install jandedobbeleer/oh-my-posh/oh-my-posh
 brew install fastfetch
 brew install lla
+brew install arietan/lite-edit/lite-edit
 
 # dev
 brew install --cask font-maple-mono-nf
@@ -99,6 +96,7 @@ brew install --cask ghostty
 brew install --cask visual-studio-code
 brew install --cask sublime-text
 brew install --cask xcodes
+
 
 # media
 brew install --cask iina
@@ -110,6 +108,7 @@ brew install --cask google-chrome
 
 # others
 brew install --cask puremac
+brew install --cask applite
 
 ```
 
@@ -121,12 +120,7 @@ curl -fsSL https://raw.githubusercontent.com/tw93/mole/main/install.sh | bash
 
 mo                           # Interactive menu
 mo clean                     # Deep cleanup + already-uninstalled app leftovers
-mo uninstall                 # Remove installed apps + their leftovers
 mo optimize                  # Refresh caches & services
-mo analyze                   # Visual disk explorer
-mo status                    # Live system health dashboard
-mo purge                     # Clean project build artifacts
-mo installer                 # Find and remove installer files
 mo update                    # Update Mole
 mo --help                    # Show help
 mo --version                 # Show installed version
