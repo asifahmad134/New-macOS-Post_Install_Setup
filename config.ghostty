@@ -1,9 +1,9 @@
-window-width = 132
-window-height = 32
+window-width = 100
+window-height = 25
 font-family = Maple Mono NF
 font-style = Bold
 font-style-bold = ExtraBold
-font-size = 12
+font-size = 14
 font-feature = +liga
 font-feature = +calt
 window-padding-balance = true

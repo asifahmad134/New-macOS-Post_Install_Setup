@@ -29,7 +29,7 @@ scutil --get HostName
 softwareupdate -l
 ```
 
-- Install all available updates:
+- Install all available updates: (Recommended ✅✅✅)
 
 ```bash
 sudo softwareupdate -i -a
@@ -41,7 +41,7 @@ sudo softwareupdate -i -a
 sudo softwareupdate -i -r
 ```
 
-- Install updates and restart automatically: (Recommended ✅✅✅)
+- Install updates and restart automatically:
 
 ```bash
 sudo softwareupdate -i -a -R
@@ -88,7 +88,6 @@ brew install nano
 brew install jandedobbeleer/oh-my-posh/oh-my-posh
 brew install fastfetch
 brew install lla
-brew install arietan/lite-edit/lite-edit
 
 # dev
 brew install --cask font-maple-mono-nf
@@ -109,6 +108,7 @@ brew install --cask google-chrome
 # others
 brew install --cask puremac
 brew install --cask applite
+brew install --cask whatsapp
 
 ```
 
